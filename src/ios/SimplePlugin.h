@@ -1,6 +1,6 @@
 #import <Cordova/CDV.h>
 
-@interface MyPlugin : CDVPlugin
+@interface SimplePlugin : CDVPlugin
 
 - (void)hello:(CDVInvokedUrlCommand*)command;
 - (void)add:(CDVInvokedUrlCommand*)command;

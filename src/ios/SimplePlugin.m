@@ -1,7 +1,7 @@
-#import "MyPlugin.h"
+#import "SimplePlugin.h"
 #import <Cordova/CDV.h>
 
-@implementation MyPlugin
+@implementation SimplePlugin
 
 - (void)hello:(CDVInvokedUrlCommand*)command
 {
