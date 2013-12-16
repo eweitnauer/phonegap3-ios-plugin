@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+    id="com.graspingmath.simple"
+    version="0.1.0">
+    <name>SimplePlugin</name>
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="SimplePlugin">
+                <param name="ios-package" value="SimplePlugin" />
+            </feature>
+        </config-file>
+        <js-module src="www/SimplePlugin.js" name="SimplePlugin">
+            <clobbers target="simplePlugin" />
+        </js-module>
+        <header-file src="src/ios/SimplePlugin.h" />
+	    <source-file src="src/ios/SimplePlugin.m" />
+    </platform>
+</plugin>
