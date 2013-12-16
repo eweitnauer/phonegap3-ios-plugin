@@ -1,11 +1,11 @@
-# Simple Example of an Phonegap iOS Plugin
+# Phonegap iOS Plugin Example
 
 ## Installation
 
-- have [Node](http://nodejs.org/) and [Cordova]() installed.
+- have [Node](http://nodejs.org/) and [Cordova](http://cordova.apache.org/) installed.
 - create example app
 ```bash
-cordova create plugin-demo && cd $_
+cordova create plugin-demo && cd plugin-demo
 ```
 - add the plugin
 ```bash
